@@ -16,22 +16,27 @@ img {
 }
 
 .left {
-  float: left;
+  float: inherit;
   width: 300px;
   padding: 1em;
+  display: inline-block;
+  text-align: justify;
 }
 
 .right {
-  float: right;
+  float: inherit;
   width: 300px;
   padding: 1em;
+  display: inline-block;
+  text-align: justify;
 }
 
 .center {
   width: 300px;
-  margin-right: 300px;
-  margin-left: 300px;
+  float: inherit;
   padding: 1em;
+  display: inline-block;
+  text-align: justify;
 }
 
 #navbar ul {
