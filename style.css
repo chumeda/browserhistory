@@ -1,13 +1,17 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  color: darkblue;
   margin: 10px 50px 10px 50px;
-  background-color: ivory;
   text-align: left;
+  padding-top: 75px;
 }
 
 h1, h2{
   font-family: 'Oswald', sans-serif;
+}
+
+.page-content {
+  padding: 10px;
+  text-align: center;
 }
 
 img {
@@ -15,39 +19,5 @@ img {
   margin-right: 10px;
 }
 
-.left {
-  float: inherit;
-  width: 300px;
-  padding: 1em;
-  display: inline-block;
-  text-align: justify;
-}
 
-.right {
-  float: inherit;
-  width: 300px;
-  padding: 1em;
-  display: inline-block;
-  text-align: justify;
-}
 
-.center {
-  width: 300px;
-  float: inherit;
-  padding: 1em;
-  display: inline-block;
-  text-align: justify;
-}
-
-#navbar ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-#navbar li {
-  display: inline;
-}
-#navbar a {
-  margin-left: 25px;
-  margin-right: 25px;
-}
